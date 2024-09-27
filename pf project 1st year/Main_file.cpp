@@ -28,7 +28,7 @@ int speed; //speed of the aliens
 int lives[3][2];
 int frequency; //frequency delay of the aliens
 int freqval;
-int box_x = 390, box_y = 495;
+int box_x = 390, box_y = 475;//coords of spaceship
 bool diff_check = true; //so difficulty menu is displayed only in case of new game
 int speedval = 0; // another variable to save speed since the difficulty menu isn't displayed everytime
 int pchoice = 1; //for pause menu
